@@ -1,0 +1,130 @@
+@media (max-width: 767px) {
+    .header .container {}
+
+    .header .container .logo {
+        width: 100%;
+        height: 40px;
+    }
+
+    .header .container .min-nav {
+        margin: auto;
+    }
+
+    .header .container .min-nav>li>a {
+        padding: 5px;
+        font-size: 12px;
+        height: 30px;
+    }
+
+    .landing .container .text h1 {
+        font-size: 30px;
+    }
+
+    .landing .container .text p {
+        font-size: 14px;
+        line-height: 1.2;
+        margin: unset;
+        color: #666;
+    }
+
+    @keyframes up-and-down {
+
+        0%,
+        100% {
+            top: 0
+        }
+
+        50% {
+            top: -20px;
+        }
+
+
+    }
+
+    /* end  img animation  */
+    .header .container .mega-menu {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .header .container .mega-menu .links:first-of-type li:last-child {
+        border-bottom: 1px solid #e9e6e6
+    }
+
+    .header .container .mega-menu li a {
+        color: var(--main-color);
+        padding: 5px;
+        display: block;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .events .container .subscribe form {
+        max-width: 100%;
+        padding: 20px;
+        flex-direction: column;
+        border-radius: 4px;
+    }
+    .events .container .info .time {
+        display: flex;
+        margin: 20px auto;
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
+        /* display: none; */
+        flex-direction: column;
+    }
+    .footer {
+        text-align: center;
+    }
+    .footer .box .social {
+        justify-content: center;
+    }
+    .footer .box .line {
+        flex-direction: column;
+    }
+    .footer .box .line i {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 991px) {
+    .landing .container {
+        flex-direction: column;
+    }
+
+    .landing .container .text {
+        flex: unset;
+        max-width: 500px;
+        text-align: center;
+        margin-top: 4em;
+    }
+
+    .header .container .mega-menu .image img {
+        display: none;
+    }
+
+    .our-skills .container img {
+        display: none;
+    }
+
+    .work-steps .container {
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .events .container img {
+        display: none;
+    }
+    .videos .holder {
+        flex-direction: column;
+    }
+    .dis .image{
+        flex-basis: 100%;
+    }
+    .dis .form {
+        flex-basis: 100%;
+    }
+
+}
